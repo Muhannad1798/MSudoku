@@ -39,4 +39,8 @@ fillBoard a function calls all the squares in the board store them in sq and use
 
 handleClick() function it just calls three functions inside isEmpty() to check if empty shadowBoard() to show the number on the board, mBoard() to highlight the row column and block of the selected square
 
+
+
+https://muhannad1798.github.io/MSudoku/
+
 isEmpty() takes an event passes from handleClick() and checks the value if it is not empty update the value of emptt to false and lasssqr to the id of event and calls selectedSqr(eve) and passes the event value. then it check the color of the text in the square and update the value of emtt and calls selectedSqr(eve) with the event. and if none of the above statements are met it changes the value of lassqr and update emtt to true and calls selectedSqr(eve)
